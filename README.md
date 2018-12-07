@@ -19,3 +19,7 @@ Initial plan for Epicodus Capstone Project 12/7/2018
   - Ability to categorize outgoing/incoming cash flow.
 * What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
   - Possibly would use another deployment site like Docker or Heroku.
+## Component Diagram
+* ![Diagram](./BudgetAppDiagram.png)
+## Mock Budget UI
+* ![MockUI](./BudgetAppMock1.png)
