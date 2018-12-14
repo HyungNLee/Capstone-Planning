@@ -1,5 +1,6 @@
 # Capstone-Planning
 Initial plan for Epicodus Capstone Project 12/7/2018
+Link to project -> https://github.com/HyungNLee/Budget_App
 ## Project Description
 * Name of Student: Hyung Lee
 * Name of Project: Budget Application
