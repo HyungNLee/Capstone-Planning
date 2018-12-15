@@ -24,3 +24,39 @@ Link to project -> https://github.com/HyungNLee/Budget_App
 * ![Diagram](./BudgetAppDiagram.png)
 ## Mock Budget UI
 * ![MockUI](./BudgetAppMock1.png)
+## Example State
+```
+  State = {
+    currentUserId: 1,
+    budget: {
+      groupCategories: {
+        usxhs223: {
+          name: 'Monthly Bills',
+          budgeted: 500,
+        },
+      },
+      subCategories: {
+        7982uus: {
+          name: 'Rent',
+          budgeted: 450,
+          masterListId: 'usxhs223'
+        },
+        8732616: {
+          name: 'Phone Bills',
+          budgeted: 50,
+          masterListId: 'usxhs223'
+        },
+      }
+    },
+    transactionList: {
+      jies866: {
+        categoryId: '7982uus',
+        description: 'Rent for apartment.',
+        payee: 'Oak Hills Apartments',
+        type: 'Expense',
+        amount: 450,
+        date: '11/12/2017'
+      },
+    },
+  }
+```
